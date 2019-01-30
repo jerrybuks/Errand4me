@@ -92,7 +92,7 @@ $('.js--section-features').waypoint(function (direction) {
 
             else{
                 icon.addClass('ion-md-menu');
-                icon.remoneClass('ion-md-close');
+                icon.removeClass('ion-md-close');
             }
 
          });
